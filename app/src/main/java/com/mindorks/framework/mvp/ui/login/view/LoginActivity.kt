@@ -12,9 +12,6 @@ import com.mindorks.framework.mvp.util.AppConstants
 import kotlinx.android.synthetic.main.activity_login.*
 import javax.inject.Inject
 
-/**
- * Created by jyotidubey on 10/01/18.
- */
 class LoginActivity : BaseActivity(), LoginMVPView {
 
     @Inject

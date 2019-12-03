@@ -1,4 +1,4 @@
-<resources>
+ <resources>
   <string name="app_name">Kotlin MVP</string>
   <string name="login_dummy">Login Dummy</string>
   <string name="email">Email</string>

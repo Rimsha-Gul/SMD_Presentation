@@ -8,9 +8,6 @@ import com.mindorks.framework.mvp.ui.base.interactor.BaseInteractor
 import com.mindorks.framework.mvp.util.AppConstants
 import javax.inject.Inject
 
-/**
- * Created by jyotidubey on 10/01/18.
- */
 class LoginInteractor @Inject internal constructor(preferenceHelper: PreferenceHelper, apiHelper: ApiHelper) : BaseInteractor(preferenceHelper, apiHelper), LoginMVPInteractor {
 
     override fun doGoogleLoginApiCall() =
